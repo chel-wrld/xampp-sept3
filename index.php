@@ -40,14 +40,14 @@
 
                 <!-- Student Number -->
                 <div class="mb-3">
-                    <label for="student_number" class="form-label">
+                    <label for="student_no" class="form-label">
                         Student Number
                     </label>
 
                     <input 
                         type="text"
                         class="form-control"
-                        id="student_number"
+                        id="student_no"
                         name="student_no"
                         placeholder="Enter student number">
                 </div>
@@ -56,46 +56,17 @@
                 <div class="row">
 
                     <div class="col-md-4 mb-3">
-                        <label for="first_name" class="form-label">
-                            First Name
+                        <label for="student_name" class="form-label">
+                            Student Name
                         </label>
 
                         <input 
                             type="text"
                             class="form-control"
-                            id="first_name"
-                            name="first_name"
-                            placeholder="Enter first name">
+                            id="student_name"
+                            name="student_name"
+                            placeholder="Enter student name">
                     </div>
-
-                    <div class="col-md-4 mb-3">
-                        <label for="middle_name" class="form-label">
-                            Middle Name
-                        </label>
-
-                        <input 
-                            type="text"
-                            class="form-control"
-                            id="middle_name"
-                            name="middle_name"
-                            placeholder="Enter middle name">
-                    </div>
-
-                    <div class="col-md-4 mb-3">
-                        <label for="last_name" class="form-label">
-                            Last Name
-                        </label>
-
-                        <input 
-                            type="text"
-                            class="form-control"
-                            id="last_name"
-                            name="last_name"
-                            placeholder="Enter last name">
-                    </div>
-
-                </div>
-
 
 
                 <!-- Course and Year Level -->
@@ -124,29 +95,6 @@
                         </select>
 
                     </div>
-
-                    <div class="col-md-4 mb-3">
-
-                        <label for="year_level" class="form-label">
-                            Year Level
-                        </label>
-
-                        <select 
-                            class="form-select"
-                            id="year_level"
-                            name="year_level">
-
-                            <option value="">Select Year</option>
-                            <option value="1st Year">1st Year</option>
-                            <option value="2nd Year">2nd Year</option>
-                            <option value="3rd Year">3rd Year</option>
-                            <option value="4th Year">4th Year</option>
-
-                        </select>
-
-                    </div>
-
-                </div>
 
                 <!-- Submit Button -->
                 <div class="d-grid">
